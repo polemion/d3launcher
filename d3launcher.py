@@ -350,7 +350,6 @@ class MainPanel(wx.Panel):
     def __init__(self, parent):
         """Init."""
         wx.Panel.__init__(self, parent=parent)
-        self.frame = parent
         # Content
         self.confBtn = GB.GradientButton(self, wx.ID_ANY, None, 'Exclusions', size=(65, 15))
         self.abtBtn = GB.GradientButton(self, wx.ID_ANY, None, 'i', size=(15, 15))

@@ -21,7 +21,7 @@
 import wx, sys, os
 
 # Version scheme
-APPVER = ['v1.06', 2021, '6/2021']
+APPVER = ['v1.07', 2021, '6/2021']
 APPNAME = 'd3Launcher'
 
 # Constants (in effect)
